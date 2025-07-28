@@ -1,0 +1,21 @@
+{
+  "campaigns": [
+    {
+      "name": "Coffe",
+      "description": "",
+      "startDate": "2025-07-28T17:00:00.000Z",
+      "endDate": "2025-07-28T17:00:00.000Z",
+      "startTime": "03:47",
+      "endTime": "04:47",
+      "location": "Ton That Thuyet",
+      "rewardPerCheckin": 10,
+      "pointBudget": 1000,
+      "wifi": {
+        "ssid": "Coffe_WiFi",
+        "bssid": "A4:A5:B6:F8"
+      },
+      "status": "pending",
+      "id": 1
+    }
+  ]
+}
