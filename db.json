@@ -1,13 +1,77 @@
 {
+  "users": [
+    {
+      "name": "cloly",
+      "email": "Cloly@gmail.com",
+      "phone": "0326654301",
+      "password": "Cloly281119@.",
+      "address": "thai binh",
+      "role": "merchant",
+      "createdAt": "2025-07-31T09:39:51.626Z",
+      "updatedAt": "2025-07-31T09:39:51.626Z",
+      "id": 1
+    },
+    {
+      "name": "lily",
+      "email": "Lily@gmail.com",
+      "phone": "0326654301",
+      "password": "Lily281119@.",
+      "address": "thai binh",
+      "role": "admin",
+      "createdAt": "2025-07-31T09:39:51.626Z",
+      "updatedAt": "2025-07-31T09:39:51.626Z",
+      "id": 2
+    },
+    {
+      "name": "cici",
+      "email": "Cici@gmail.com",
+      "phone": "0326654301",
+      "password": "Cici281119@.",
+      "address": "thai binh",
+      "role": "user",
+      "createdAt": "2025-07-31T09:39:51.626Z",
+      "updatedAt": "2025-07-31T09:39:51.626Z",
+      "id": 3
+    }
+  ],
   "campaigns": [
     {
-      "name": "Coffe",
+      "name": "Coffee Shop Grand Opening",
+      "description": "Special grand opening promotion for coffee lovers",
+      "startDate": "2025-07-29T17:00:00.000Z",
+      "endDate": "2025-07-30T17:00:00.000Z",
+      "startTime": "14:26",
+      "endTime": "14:26",
+      "location": {
+        "lat": 21.038480098265897,
+        "lng": 105.7469480749745
+      },
+      "rewardPerCheckin": 50,
+      "pointBudget": 1000,
+      "wifi": {
+        "ssid": "Coffe_WiFi",
+        "bssid": "A4:A5:B6:F8"
+      },
+      "qrUrl": "data:image/png;base64,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",
+      "status": "approved",
+      "used": 0,
+      "checkIns": 0,
+      "createdAt": "2025-07-30T07:26:46.571Z",
+      "updatedAt": "2025-07-31T02:04:45.686Z",
+      "id": 3,
+      "userId": 1
+    },
+    {
+      "name": "Coffee Shop Grand Opening",
       "description": "",
-      "startDate": "2025-07-28T17:00:00.000Z",
-      "endDate": "2025-07-28T17:00:00.000Z",
-      "startTime": "03:47",
-      "endTime": "04:47",
-      "location": "Ton That Thuyet",
+      "startDate": "2025-07-31T17:00:00.000Z",
+      "endDate": "2025-08-01T17:00:00.000Z",
+      "startTime": "18:51",
+      "endTime": "07:51",
+      "location": {
+        "lat": 21.0132238,
+        "lng": 105.7810022
+      },
       "rewardPerCheckin": 10,
       "pointBudget": 1000,
       "wifi": {
@@ -15,7 +79,122 @@
         "bssid": "A4:A5:B6:F8"
       },
       "status": "pending",
-      "id": 1
+      "qrUrl": "data:image/png;base64,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",
+      "used": 0,
+      "checkIns": 0,
+      "createdAt": "2025-08-01T11:51:31.195Z",
+      "updatedAt": "2025-08-03T05:29:39.871Z",
+      "id": 4,
+      "userId": 1
+    }
+  ],
+  "check-ins": [
+    {
+      "id": 1,
+      "userName": "John Doe",
+      "userId": 1,
+      "checkInTime": "2024-01-28 14:30:22",
+      "pointsEarned": 50,
+      "verify": "Verified",
+      "campaignId": 3
+    },
+    {
+      "id": 2,
+      "userName": "Jane Smith",
+      "userId": 2,
+      "checkInTime": "2024-01-28 13:45:15",
+      "pointsEarned": 50,
+      "verify": "Verified",
+      "campaignId": 3
+    },
+    {
+      "id": 3,
+      "userName": "Mike Johnson",
+      "userId": 3,
+      "checkInTime": "2024-01-28 12:20:08",
+      "pointsEarned": 50,
+      "verify": "Verified",
+      "campaignId": 3
+    }
+  ],
+  "transactions": [
+    {
+      "id": 2,
+      "type": "spent",
+      "point": 1000,
+      "amount": 10,
+      "description": "Coffee Shop Grand Opening Campaign",
+      "createdAt": "2024-01-20T10:00:00.000Z",
+      "userId": 1
+    },
+    {
+      "id": 4,
+      "type": "topup",
+      "amount": 10,
+      "point": 1000,
+      "description": "Top up wallet with 10 USD",
+      "createdAt": "2024-01-20T10:00:00.000Z",
+      "userId": 1
+    },
+    {
+      "type": "topup",
+      "userId": 1,
+      "amount": 10,
+      "point": 1000,
+      "description": "Top up wallet with 10 USD",
+      "createdAt": 1754156413037,
+      "id": 5
+    },
+    {
+      "type": "topup",
+      "userId": 1,
+      "amount": 10,
+      "point": 1000,
+      "description": "Top up wallet with 10 USD",
+      "createdAt": 1754193978607,
+      "id": 6
+    },
+    {
+      "type": "topup",
+      "userId": 1,
+      "amount": 10,
+      "point": 1000,
+      "description": "Top up wallet with 10 USD",
+      "createdAt": 1754194016525,
+      "id": 7
+    }
+  ],
+  "wallets": [
+    {
+      "id": 1,
+      "userId": 1,
+      "balance": 3000,
+      "totalSpent": 1000,
+      "totalTopup": 4000,
+      "createdAt": "2024-01-20T10:00:00.000Z",
+      "updatedAt": "2025-08-03T04:06:56.725Z"
+    }
+  ],
+  "vouchers": [
+    {
+      "id": 1,
+      "title": "20% Off at Highlands",
+      "description": "Get 20% off for bills from 100,000₫ at Highlands Coffee",
+      "image": "",
+      "discountType": "percent",
+      "discountValue": 20,
+      "minOrderValue": 10,
+      "maxDiscount": 50000,
+      "pointCost": 200,
+      "quantity": 100,
+      "claimed": 32,
+      "startDate": "2025-08-01T00:00:00Z",
+      "endDate": "2025-08-31T23:59:59Z",
+      "status": "active",
+      "isPublished": true,
+      "userId": 1,
+      "createdAt": "2024-01-20T10:00:00.000Z",
+      "updatedAt": "2025-08-03T04:06:56.725Z"
     }
   ]
 }
